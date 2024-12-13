@@ -1,6 +1,9 @@
 name: Simple CI Pipeline
 
 
+on:
+  workflow_dispatch: # Allows manual triggering
+
 jobs:
   build:
     runs-on: ubuntu-latest
